@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F4F4F4;
+  font-family: 'Lato', sans-serif;
+}
+
+#container {
+	text-align: center;
+}
+
+#nav {
+	padding: 10px 0 10px 0;
+	text-align: center;
+	background: #5E2CA5;
+}
+
+#nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #EEEEEE;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#welcome-bg {
+	margin-top: 50px;
+	width: auto;
+	height: 50vh;
+}
+
+#Welcome h1 {
+	margin: 5px auto 15px auto;
+	max-width: 50%;
+}
