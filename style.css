@@ -1,8 +1,9 @@
 body {
-  margin: 0;
-  padding: 0;
-  background: #F4F4F4;
-  font-family: 'Lato', sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #F4F4F4;
+	font-family: 'Lato', sans-serif;
 }
 
 #container {
@@ -55,4 +56,17 @@ body {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+@media (max-width: 600px) {
+	#Welcome h1 {
+	margin: 5px auto 15px auto;
+	max-width: 75%;
+	font-size: 1.5rem;
+	}
+	#welcome-bg {
+		margin-top: 50px;
+		height: 40vh;
+		max-width: 75%;
+	}
 }
