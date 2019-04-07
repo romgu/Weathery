@@ -10,7 +10,9 @@ body {
 	text-align: center;
 }
 
+/*Navigation Bar Styles*/ 
 #nav {
+	width: 100%;
 	padding: 10px 0 10px 0;
 	text-align: center;
 	background: #5E2CA5;
@@ -23,17 +25,22 @@ body {
 	color: #EEEEEE;
 	font-family: 'Quicksand', sans-serif;
 }
+/*End Navigation Bar*/
+
+/*Welcome Styles*/
 
 #welcome-bg {
-	margin-top: 50px;
-	width: auto;
-	height: 50vh;
+	margin: 20px 0px 5px 0;
+	height: auto;
+	max-width: 40%;
 }
 
 #Welcome h1 {
 	margin: 5px auto 15px auto;
 	max-width: 50%;
 }
+
+/*Button Styles*/
 
 .myButton {
 	background: #5E2CA5;
@@ -58,15 +65,28 @@ body {
 	top:1px;
 }
 
-@media (max-width: 900px) {
+/*Media Styles*/
+
+@media screen and (max-width: 1300px) {
 	#Welcome h1 {
 	margin: 5px auto 15px auto;
 	max-width: 75%;
 	font-size: 1.5rem;
 	}
 	#welcome-bg {
-		margin-top: 50px;
-		height: 40vh;
-		max-width: 75%;
+		margin: 50px 0 30px 0;
+		max-width: 50%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#Welcome h1 {
+	margin: 5px auto 15px auto;
+	max-width: 75%;
+	font-size: 1.5rem;
+	}
+	#welcome-bg {
+		margin: 50px 0 30px 0;
+		max-width: 65%;
 	}
 }
