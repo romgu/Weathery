@@ -33,3 +33,26 @@ body {
 	margin: 5px auto 15px auto;
 	max-width: 50%;
 }
+
+.myButton {
+	background: #5E2CA5;
+	color: #EEEEEE;
+	font-family: 'Quicksand', sans-serif;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #EEEEEE;
+	display:inline-block;
+	cursor:pointer;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.myButton:hover {
+	background-color: #9f5ae0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
