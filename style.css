@@ -1,5 +1,6 @@
 body {
 	width: 100%;
+	overflow-y: hidden;
 	margin: 0;
 	padding: 0;
 	background: #F4F4F4;
@@ -35,13 +36,12 @@ body {
 	max-width: 40%;
 }
 
-#Welcome h1 {
+h1 {
 	margin: 5px auto 15px auto;
 	max-width: 50%;
 }
 
 /*Button Styles*/
-
 .myButton {
 	background: #5E2CA5;
 	color: #EEEEEE;
@@ -64,11 +64,12 @@ body {
 	position:relative;
 	top:1px;
 }
+/*End Button Styles*/
 
 /*Media Styles*/
 
 @media screen and (max-width: 1300px) {
-	#Welcome h1 {
+	h1 {
 	margin: 5px auto 15px auto;
 	max-width: 75%;
 	font-size: 1.5rem;
@@ -80,7 +81,7 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-	#Welcome h1 {
+	h1 {
 	margin: 5px auto 15px auto;
 	max-width: 75%;
 	font-size: 1.5rem;
