@@ -2,7 +2,10 @@ console.log("I was loaded")
 
 function transitionWelcome() {
 	let welcome = document.getElementById("welcome").className = "hidden";
-	let metricMenu = document.getElementById('metricUnits').className = "visible";
+	setTimeout(
+		function(){ 
+			let metricMenu = document.getElementById('metricUnits').className = "visible"; 
+		}, 500);	
 }
 
 
