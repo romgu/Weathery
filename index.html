@@ -16,16 +16,17 @@
 		</div>
 	</header>
 	<div id="container" style="display: flex; justify-content: center; align-items: center; height: 90vh; padding: 0 20px 0 20px">
-<!-- 		<div id="Welcome">
+		<div id="welcome" class="visible">
 			<object id="welcome-bg" type="image/svg+xml" data="./images/raining-welcome.svg">
 			  Your browser does not support SVG
 			</object>
 			<h1>
 				Hello, I'm Weathery and I can help you calculating the Windchill. I will just need you to provide me with some data. Let's start?
 			</h1>
-			<a href="" class="myButton">Start</a>
-		</div> -->
-		<div id="metricUnits">
+			<a id="startButton" class="myButton">Start</a>
+		</div>
+		<div id="metricUnits" class="hidden">
+		<!-- On charge Users will be asked to select the Metric system -->
 			<h1>
 				Please, select your prefered unit system:
 			</h1>
@@ -34,7 +35,6 @@
 		</div>
 	</div>
 	<!-- Content -->
-		<!-- On charge Users will be asked to select the Metric system -->
 		<!-- Users will enter temperature and wind speed -->
 		<!-- Calculate Button, will display Windchill -->
 		<!-- If there is any error, users will receive an error message -->
@@ -43,4 +43,5 @@
 	<!-- Footer -->
 		<!-- Maybe errors can be displayed here -->
 </body>
+<script src="script.js"></script>
 </html>
