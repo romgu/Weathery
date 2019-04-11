@@ -111,4 +111,11 @@ body {
 		}
 	}
 
+/*Input Styles*/
+	.inputValue {
+		font-weight: bold;
+		margin-right: 20px;
+	}
+/*End Input Styles*/
+
 /*End Media Styles*/
