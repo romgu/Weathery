@@ -30,19 +30,18 @@
 			<h1>
 				Please, select your prefered unit system:
 			</h1>
-			<a class="myButton">International System °C</a>
-			<a class="myButton">English System °F</a>
+			<a class="myButton" id="intUnits">International System °C</a>
+			<a class="myButton" id="engUnits">English System °F</a>
 		</div>
 		<div id="intSystem" class="hidden">
 		<!-- Users will enter temperature and wind speed -->
 		<!-- Calculate Button, will display Windchill -->
 		<!-- If there is any error, users will receive an error message -->
-		<form>
-		Temperature (°C): <input type="text" name="Temperature" value="0°C"><br>
-		Wind Speed (KMH): <input type="text" name="WindSpeed" value="0KMH"><br>
-		<input type="submit" value="Submit">
-		</form>
-			<a class="myButton">Calculate</a>
+			<form>
+			<span> Temperature (°C): </span> <input type="text" name="Temperature" value="0°C"><br>
+			<span> Wind Speed (KMH): </span> <input type="text" name="WindSpeed" value="0KMH"><br>
+			<input style="font-size: 1rem; margin-top: 20px"class="myButton" type="submit" value="Calculate">
+			</form>
 		</div>
 	</div>
 	<!-- Content -->
