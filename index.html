@@ -33,11 +33,20 @@
 			<a class="myButton">International System °C</a>
 			<a class="myButton">English System °F</a>
 		</div>
-	</div>
-	<!-- Content -->
+		<div id="intSystem" class="hidden">
 		<!-- Users will enter temperature and wind speed -->
 		<!-- Calculate Button, will display Windchill -->
 		<!-- If there is any error, users will receive an error message -->
+		<form>
+		Temperature (°C): <input type="text" name="Temperature" value="0°C"><br>
+		Wind Speed (KMH): <input type="text" name="WindSpeed" value="0KMH"><br>
+		<input type="submit" value="Submit">
+		</form>
+			<a class="myButton">Calculate</a>
+		</div>
+	</div>
+	<!-- Content -->
+
 		<!-- If users don't change any previous valors will be asked to first change at least one value of the input fields in order to be able to calculate a windchill value -->
 		<!-- Once clicked the calculate button it will trigger and event listener in input fields and will automatically change the result -->
 	<!-- Footer -->
